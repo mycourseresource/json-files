@@ -1,0 +1,17 @@
+{
+	"Menu": {
+		"Monday": {
+			"Starter": "Soup",
+			"Main": "Steak",
+			"Desert": "Ice Cream"
+		},
+		"Tuesday": {
+			"Starter": "Green Salade",
+			"Main": "Spaghetti",
+			"Desert": "Pudding"
+		},
+		"Wednesday": "Toast",
+		"Thursday": "Pork Chops",
+		"Friday": "Fish and Chips"
+	}
+}

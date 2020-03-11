@@ -1,0 +1,99 @@
+﻿
+<input type="text" id="custName" maxlength="25" name="custName">
+<input type="text" id="custPhone" maxlength="12" name="custPhone">
+
+<input type="button" value="Order Meal" onClick="processOrder();">
+
+<div id="menu"> </div>
+
+<script>
+
+function processOrder() {
+  console.log('About to process order');
+  var custName = document.getElementById('custName').value;
+  console.log('custName:', custName);
+  var custPhone = document.getElementById('custPhone').value;
+  console.log('custPhone:', custPhone);
+
+}
+
+var today = 'Wednesday';
+var menu = document.getElementById('menu');
+
+var myApiCall = new XMLHttpRequest();
+myApiCall.onreadystatechange = function() {
+
+    if (this.readyState == 4 && this.status == 200) {
+        var myApiData = myApiCall.responseText;
+        //console.log(myApiData);
+        var myDataObject = JSON.parse(myApiData);
+        console.log(myDataObject);
+        console.log(myDataObject.Menu[today]);
+
+        var menuHtml = '<h3>Starter</h3>';
+        menuHtml += '<p>';
+        menuHtml += myDataObject.Menu[today].Starter[0] + '<br>';
+        menuHtml += myDataObject.Menu[today].Starter[1] + '<br>';
+        menuHtml += myDataObject.Menu[today].Starter[2] + '<br>';
+        menuHtml += '</p>';
+        menuHtml += '<h3>Main</h3>';
+        menuHtml += '<p>';
+        menuHtml += myDataObject.Menu[today].Main[0] + '<br>';
+        menuHtml += myDataObject.Menu[today].Main[1] + '<br>';
+        menuHtml += myDataObject.Menu[today].Main[2] + '<br>';
+        menuHtml += '</p>';
+        menuHtml += '<h3>Desert</h3>';
+        menuHtml += '<p>';
+        menuHtml += myDataObject.Menu[today].Desert[0] + '<br>';
+        menuHtml += myDataObject.Menu[today].Desert[1] + '<br>';
+        menuHtml += myDataObject.Menu[today].Desert[2] + '<br>';
+        menuHtml += '</p>';
+        menu.innerHTML = menuHtml;
+
+    }
+
+};
+
+myApiCall.open("GET", "https://raw.githubusercontent.com/mycourseresource/json-files/master/canteen.json", true);
+myApiCall.send();
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

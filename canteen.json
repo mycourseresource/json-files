@@ -1,0 +1,77 @@
+{
+	"Menu": {
+		"Monday": {
+			"Starter": ["Freshly Made Carrot & Coriander soup with a selection of croutons",
+				"Cream of Tomato & Basil soup with a selection of croutons",
+				"Chunky Rustic Vegetable with a selection of croutons"
+			],
+			"Main": ["Traditional Roast Pork Dinner",
+				"Homemade Focaccia, Pasta/Rice",
+				"Chicken Tikka Masala"
+			],
+			"Desert": ["Apple Spiced Crumble served with Vanilla Custard",
+				"Fresh Homemade Banoffi Pie",
+				"Jelly & Ice-Cream"
+			]
+		},
+		"Tuesday": {
+			"Starter": ["Smoked Gubbeen cheese agnolotti, mushroom broth",
+				"Spiced Carrot & Tomato Soup with Coriander Oil",
+				"Atlantic Seafood Potato Cakes served with Salad & Fries"
+			],
+			"Main": ["Barbecued pork jowl, swede, hispi cabbage, pickled mustard seeds",
+				"Cod, seaweed butter, crushed queens, squid & leeks",
+				"Fillet of Irish beef, truffle pomme puree, shallot, chanterelles"
+			],
+			"Desert": ["Sticky Toffee Pudding, Butterscotch Sauce, Rum and Raisin Ice Cream",
+				"Dark, White and Orange Chocolate Mousse, Espresso Ice Cream",
+				"Lemon Meringue, Mix Berry Compote, Churned Vanilla Ice Cream"
+			]
+		},
+		"Wednesday": {
+			"Starter": ["Steamed Mussels with Shallots, Parsley & White Wine",
+				"Brill & scallop, tenderstem broccoli , langoustine bisque",
+				"Onion & Thyme Leaf Soup with Chive Cream"
+			],
+			"Main": ["Lime and chilli marinated halloumi cheese pan fired served with salad, slaw and chilli sauce",
+				"Salmon, hake, cod, mackerel fish cakes with sweet potato and dill, deep fried served with salsa verde and mixed leaves",
+				"Grilled chicken marinated in chilli, garlic and lemon juice, served with our wholemeal couscous and super slaw"
+			],
+			"Desert": ["Set chocolate mousse, coconut sorbet",
+				"Orange Chocolate Cake with Ice",
+				"Warm Apple Pie with Custard and Cream"
+			]
+		},
+		"Thursday": {
+			"Starter": ["Quail pithivier, celeriac, madeira sauce",
+				"Duck, Red Cabbage & Apricot Salad with Toasted Pecan Nuts",
+				"Chicken & Ham Terrine with Onion Confiture"
+			],
+			"Main": ["Slow Roast East Cork Lamb with Mint Béarnaise & Braised Celeriac",
+				"Roast Peppered Beef with Horseradish Sauce served with Roast Jerusalem Artichokes & Red Onion",
+				"Black Eyed Beans with Mushrooms, Tomatoes & Coriander served with Basmati Rice & a Popadum"
+			],
+			"Desert": ["Profiteroles served with Chocolate Sauce",
+				"Passion fruit souffle, vanilla ice cream",
+				"Maltesers and Baileys Cheesecake with Ice"
+			]
+		},
+		"Friday": {
+			"Starter": ["Charred mackerel, crispy oyster, cucumber, apple, oyster mayonnaise",
+				"Cream of Potato and Leek Soup",
+				"Seafood Chowder"
+			],
+			"Main": ["Venison, Jerusalem artichoke, gnocchi, quince, pepper sauce",
+				"Panfried Hake with Sauce Beurre Blanc & Wilted Leeks",
+				"Chicken with Tarragon Cream Sauce served with Gujerati Style Cabbage"
+			],
+			"Desert": ["Hot Fudge Brownie served with Chocolate Sauce",
+				"Fresh Fruit Salad served with Natural Yoghurt",
+				"Classic apple tarte Tatin, prune ice cream"
+			]
+		}
+
+
+
+	}
+}

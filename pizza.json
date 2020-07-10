@@ -1,0 +1,63 @@
+{
+	"pizzas": [{
+			"Name": "Margherita",
+			"Ingredients": ["Tomato Sauce", "Extra Mozzerella Cheese"],
+			"Price": "€11.99"
+		},
+		{
+			"Name": "Supreme",
+			"Ingredients": ["Pepperoni", "Minced Beef", "Mushrooms", "Mixed Peppers", "Red Onions"],
+			"Price": "€12.99"
+		},
+		{
+			"Name": "Texan BBQ",
+			"Ingredients": ["BBQ Sauce", "Crispy Bacon and Chicken"],
+			"Price": "€13.99"
+		},
+		{
+			"Name": "Mexican Hot",
+			"Ingredients": ["Double Pepperoni", "Mince Beef", "Red Onions", "Jalapenos"],
+			"Price": "€14.99"
+		},
+		{
+			"Name": "Buffalo Chicken Pizza",
+			"Ingredients": ["New Buffalo Chicken", "Onions", "Mixed Peppers", "NEW Chipotle Drizzle"],
+			"Price": "€15.99"
+		},
+		{
+			"Name": "Canadian Supreme",
+			"Ingredients": ["Chicken", "Onions", "Mixed Peppers"],
+			"Price": "€16.99"
+		},
+		{
+			"Name": "Vegetable Supreme",
+			"Ingredients": ["Pepperoni", "Mushrooms", "Crispy Bacon"],
+			"Price": "€17.99"
+		},
+		{
+			"Name": "Hawaiian",
+			"Ingredients": ["Double Ham", "Pineapple"],
+			"Price": "€18.99"
+		},
+		{
+			"Name": "The Chicken One",
+			"Ingredients": ["Chicken", "Mushrooms", "Tomatoes", "Peppers"],
+			"Price": "€19.99"
+		},
+		{
+			"Name": "Pepperoni Feast",
+			"Ingredients": ["Double Pepperoni", "Extra Mozzarella"],
+			"Price": "€20.99"
+		},
+		{
+			"Name": "BBQ Chicken",
+			"Ingredients": ["BBQ Sauce", "Chicken", "Tomatoes", "Red Onions", "Peppers"],
+			"Price": "€21.99"
+		},
+		{
+			"Name": "Mega Meaty",
+			"Ingredients": ["Ham", "Pepperoni", "Mince Beef", "Spicy Sausage", "Spicy Pork"],
+			"Price": "€22.99"
+		}
+	]
+}
